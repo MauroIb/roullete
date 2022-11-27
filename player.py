@@ -14,7 +14,7 @@ class Player():
         self.balance = 0
 
     def __repr__(self) -> str:
-        return f'{self.bet_type=}\t{self.balance=}\t{self.bet_amount=}{self.bet_list=}\t'
+        return f'{self.bet_type= }\t{self.balance= }\t{self.bet_amount= }\t {self.bet_list= }\t'
     
     def __calculate_bet_amount_logic(self) -> None:
         """Logic for calculating how much the player will bet next round
