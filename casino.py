@@ -48,7 +48,6 @@ class Casino:
                         bet_type= self.players[n].bet_type,
                         bet_value= self.players[n].bet_amount)
                 self.players[n].recieve_result(result)
-                print(self.players[n])
         
         # Report results
         for player in self.players:
