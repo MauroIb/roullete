@@ -15,7 +15,6 @@ class Roulette():
         """Roll a new number
         """
         self.rolled_number  = random.randint(0, 36)
-        print(f'{self.rolled_number=}')
 
     def bet_even(rolled_number) -> bool:
         return rolled_number % 2
