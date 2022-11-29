@@ -50,7 +50,11 @@ class Casino:
                 self.players[n].recieve_result(result)
         
         # Report results
+        total = 0
         for player in self.players:
             print(player)
+            total += player.balance
+
+        print(f'> As a team, the final balance is : {total}. The players {"won" if total > 0 else "lost"}')
 
     

@@ -41,7 +41,7 @@ class Roulette():
             'black' : bet_black,
             'red' : bet_red,
             'low' : bet_low,
-            'red' : bet_high
+            'high' : bet_high
             }
     
     def get_valid_bets(self) -> list : 

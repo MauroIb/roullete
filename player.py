@@ -36,6 +36,7 @@ class Player():
             # If betting too much, reset list
             self.__reset_bet_list()
             self.__calculate_bet_amount_logic()
+        self.balance -= self.bet_amount
     
     def recieve_result(self, result : int) -> None:
         """
